@@ -19,13 +19,13 @@ if(empty($name)||empty($visitor_email))
     exit;
 }
 
-$email_from = 'r199303h@students.msu.ac.zw'; 
+$email_from = 'nqobangena@gmail.com'; 
 $email_subject = "New Form submission";
 $email_body = "You have received a new message from the user $name.\n".
     "email address: $visitor_email\n".
     "Here is the message:\n $message".
     
-$to = "r199303h@students.msu.ac.zw"; 
+$to = "nqobangena@gmail.com"; 
 $headers = "From: $email_from \r\n";
 
 					//Send the email!
@@ -34,6 +34,6 @@ mail($to,$email_subject,$email_body,$headers);
 
 				//done. redirect to thank-you page.
 
-header('Location: https://nqobamangena-r199303h.netlify.app/');
+header('Location: index.html');
   
 ?> 
