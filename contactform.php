@@ -34,6 +34,6 @@ mail($to,$email_subject,$email_body,$headers);
 
 				//done. redirect to thank-you page.
 
-header('Location: contact.html');
+header('Location: index.html');
   
 ?> 
