@@ -34,6 +34,6 @@ mail($to,$email_subject,$email_body,$headers);
 
 				//done. redirect to thank-you page.
 
-header('https://nqobamangena-r199303h.netlify.app/');
+header('Location: https://nqobamangena-r199303h.netlify.app/');
   
 ?> 
