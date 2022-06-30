@@ -19,13 +19,13 @@ if(empty($name)||empty($visitor_email))
     exit;
 }
 
-$email_from = 'r199303h@msu.students.ac.zw'; 
+$email_from = 'r199303h@students.msu.ac.zw'; 
 $email_subject = "New Form submission";
 $email_body = "You have received a new message from the user $name.\n".
     "email address: $visitor_email\n".
     "Here is the message:\n $message".
     
-$to = "r199303h@msu.students.ac.zw"; 
+$to = "r199303h@students.msu.ac.zw"; 
 $headers = "From: $email_from \r\n";
 
 					//Send the email!
